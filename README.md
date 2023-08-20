@@ -1,1 +1,2 @@
 # odin-recipes
+In this project I built a recipes website. I used liks, images, paragraphs, and lists. I created a main page with links to all the recipies. Every recipe has an ingredient list and steps on how to make. 
