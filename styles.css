@@ -1,0 +1,76 @@
+/* styles for index.html page */
+
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url(./fonts/OldLondon.ttf);
+    margin: 10px auto;
+}
+
+.center{
+
+    margin: 0px auto;
+    border: 5px;
+  
+    
+
+}
+.mainTitle{
+
+    margin-top: -5px;
+    font-family: myFont ;
+    font-size: 150px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.gif{
+    width: 20%; 
+    margin: 0 auto;
+    display: block;
+    border-radius: 5%;
+    margin-top: -30px;
+
+   
+}
+
+.gif a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+/*     border-style: solid; */
+    margin-left: 48px;
+}
+a:hover{
+    color: red;
+}
+
+/* rice.html */
+
+
+.riceTitle{
+    
+    font-family: myFont;
+    font-size: 64px;
+    color: rgb(70, 89, 95);
+    
+}
+
+/* beans.html */
+.beansTitle{
+    font-family: myFont;
+    font-size: 64px;
+    color: rgb(70, 89, 95);
+}
+
+
+/* riceandbeans.html */
+.randbTitle{
+    font-family: myFont;
+    font-size: 64px;
+    color: rgb(70, 89, 95);
+}
+
