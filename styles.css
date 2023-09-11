@@ -8,45 +8,82 @@
     src: url(./fonts/OldLondon.ttf);
     margin: 10px auto;
 }
-
 .center{
-
     margin: 0px auto;
-    border: 5px;
-  
-    
-
+    text-align: center;
 }
 .mainTitle{
-
+    
     margin-top: -5px;
     font-family: myFont ;
     font-size: 150px;
     font-weight: 400px;
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 70px;
 }
-.gif{
-    width: 20%; 
+.gif .cookhere{
+    display: inline-block;
+    border: 10px;
+    border-style: double;
+    border-radius: 5px;
     margin: 0 auto;
-    display: block;
-    border-radius: 5%;
-    margin-top: -30px;
-
-   
-}
-
-.gif a{
-    text-decoration: none;
     text-align: center;
-    color: white;
-    font-size: 30px;
-/*     border-style: solid; */
-    margin-left: 48px;
+}
+.ytLink a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 a:hover{
     color: red;
 }
+.rowgrid{
+    margin-top: 3px;
+    display: inline-flex;
+    --gap: 5px;
+    --num-cols:3;
+    --row-height:300px;
+
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows: var(--row-height);
+    gap: 19px;
+}
+.rowgrid > a img{
+    border-style:double;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.rice:hover{
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+.beans:hover{
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+.riceandbeans:hover{
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+.navi{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: myFont;
+    font-size: 30px;
+}
+
+
+
 
 /* rice.html */
 
@@ -58,6 +95,21 @@ a:hover{
     color: rgb(70, 89, 95);
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* beans.html */
 .beansTitle{
