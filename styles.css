@@ -13,7 +13,7 @@
     text-align: center;
 }
 .mainTitle{
-    
+    letter-spacing: 30px;
     margin-top: -5px;
     font-family: myFont ;
     font-size: 150px;
@@ -76,12 +76,13 @@ a:hover{
 }
 
 .navi{
+
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: myFont;
     font-size: 30px;
-}
 
+}
 
 
 
@@ -92,7 +93,7 @@ a:hover{
     
     font-family: myFont;
     font-size: 64px;
-    color: rgb(70, 89, 95);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -115,7 +116,7 @@ a:hover{
 .beansTitle{
     font-family: myFont;
     font-size: 64px;
-    color: rgb(70, 89, 95);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -123,6 +124,6 @@ a:hover{
 .randbTitle{
     font-family: myFont;
     font-size: 64px;
-    color: rgb(70, 89, 95);
+    color: rgb(255, 255, 255);
 }
 
