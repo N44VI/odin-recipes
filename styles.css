@@ -11,6 +11,7 @@
 .center{
     margin: 0px auto;
     text-align: center;
+    
 }
 .mainTitle{
     letter-spacing: 30px;
@@ -89,27 +90,68 @@ a:hover{
 /* rice.html */
 
 
-.riceTitle{
-    
-    font-family: myFont;
-    font-size: 64px;
-    color: rgb(255, 255, 255);
-    
+.container {
+    background-color: #abb1f5;
+/*     display: inline-block; */
+    border-color: #ffffff;
+    border-style: double;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-width: 10px;
+    margin-bottom: 0px;
+
 }
 
 
+.middlecard{
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.riceTitle{
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    font-family: myFont;
+/*     border-style: solid;  */
+    margin-top: 1px;
+}
 
 
+.chickenrice{
+    width: 200px ;
+    height: auto;
+    border-radius: 360px;
+    border-style:solid ;
+    border-width: 5px;
+    border-color: rgb(239, 198, 255);
+    margin-top: 2px;
 
+}
+h2{
+    font-family: myFont;
+    font-size: 30px;
+}
 
+.listone{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+}
 
+.ollist{
+    display: inline-block;
+    margin-top: 1px;
 
+}
+.linkhome{
+    text-align: center;
 
-
-
-
-
-
+}
+.home{
+    font-family: myFont;
+    font-size: xx-large;
+    text-decoration: none;
+}
 
 
 /* beans.html */
